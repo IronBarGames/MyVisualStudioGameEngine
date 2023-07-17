@@ -1,0 +1,8 @@
+-window now loads in engine init function InitEngine()
+-window input is grabbed upon engine init, and cursor is centered in the window
+-SDL_GetRandomColor() changed to GetRandomColor()
+-removed SDL_Gamepad and all the functions that use it
+-made changes to SDL_WindowManager class and renamed to WindowManager
+-QuitSDL() retooled as QuitEngine()
+-removed AMDLIB.h and AMD AGS from engine
+-added frameController variable for frame related functions
